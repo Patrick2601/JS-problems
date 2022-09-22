@@ -1,18 +1,15 @@
-let str = "arrays";
+let str = "i am a strings";
 
 let s = str.split("");
 console.log(s);
-let c = 0;
-for (let x = 0; x < s.length; x++) {
+for (let i = 0; i < s.length; i++) {
   let c = 0;
-  for (let y = 0; y < s.length; y++) {
-    if (s[x] === s[y]) {
-      if (x !== y) {
-        c++;
-      }
+  for (let j = 0; y < s.length; j++) {
+    if (s[i] === s[j] && i !== j) {
+      c++;
     }
   }
   if (c === 0) {
-    console.log(s[x]);
+    console.log(s[i]);
   }
 }

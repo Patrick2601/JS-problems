@@ -6,8 +6,11 @@ for (let i = 0; i < arr.length; i++) {
     max = arr[i];
   }
 }
-//MINIMUM
 console.log(max);
+
+
+
+//MINIMUM
 let min = arr[0];
 for (let i = 1; i < arr.length; i++) {
   if (arr[i] < min) {
